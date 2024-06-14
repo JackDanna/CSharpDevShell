@@ -1,5 +1,5 @@
 {
-  description = "A fun enviroment for developing C#";
+  description = "A C# Dev Shell";
 
   outputs = { self, nixpkgs }:
   let
@@ -17,27 +17,25 @@
   in 
   {
     packages.${system} = {
-
       default = pkgs.writeShellScriptBin "run" ''
         nix develop -c -- code .
       '';
-
     };
     
 
     devShells.${system}.default = pkgs.mkShell rec {
-      name = "CSharpForFun";
+      name = "C#DevShell";
       buildInputs = with pkgs; [
-        gnome.gnome-terminal
         bashInteractive
         dotnet-sdk_8
         (vscode-with-extensions.override  {
           vscode = pkgs.vscode;
           vscodeExtensions = with pkgs.vscode-extensions; [
-            jnoortheen.nix-ide
-            mhutchie.git-graph
             ms-dotnettools.csdevkit
             ms-dotnettools.csharp
+
+            jnoortheen.nix-ide
+            mhutchie.git-graph
           ] ++ pkgs.vscode-utils.extensionsFromVscodeMarketplace [
             {
               name = "vscode-dotnet-runtime";
@@ -45,25 +43,13 @@
               version = "2.0.5";
               sha256 = "sha256-acP3NULTNNyPw5052ZX1L+ymqn9+t4ydoCns29Ta1MU=";
             }
-            # {
-            #   name = "csharp";
-            #   publisher = "ms-dotnettools";
-            #   version = "2.30.28";
-            #   sha256 = "sha256-+loUatN8evbHWTTVEmuo9Ups6Z1AfqzCyTWWxAY2DY8=";
-            # }
-            # {
-            #   name = "csdevkit";
-            #   publisher = "ms-dotnettools";
-            #   version = "1.6.8";
-            #   sha256 = "sha256-rkoIneBJO3178k4Bbjji4EKNUfFAwfdsmEbnfNLuNKg=";
-            # }
           ];
         })
       ];
 
       shellHook = ''
         export PS1+="${name}> "
-        echo "Welcome to the CSharpForFun Dev Shell!"
+        echo "Welcome to the C# Dev Shell!"
       '';
     };
   }; 

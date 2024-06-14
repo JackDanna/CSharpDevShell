@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jackd/repos/CSharpForFun/DemoApp/DemoApp.csproj": {}
+    "/home/jackd/repos/C#DevShell/DemoApp/DemoApp.csproj": {}
   },
   "projects": {
-    "/home/jackd/repos/CSharpForFun/DemoApp/DemoApp.csproj": {
-      "version": "1.0.0",
+    "/home/jackd/repos/C#DevShell/DemoApp/DemoApp.csproj": {
+      "version": "2.12.1",
       "restore": {
-        "projectUniqueName": "/home/jackd/repos/CSharpForFun/DemoApp/DemoApp.csproj",
+        "projectUniqueName": "/home/jackd/repos/C#DevShell/DemoApp/DemoApp.csproj",
         "projectName": "DemoApp",
-        "projectPath": "/home/jackd/repos/CSharpForFun/DemoApp/DemoApp.csproj",
+        "projectPath": "/home/jackd/repos/C#DevShell/DemoApp/DemoApp.csproj",
         "packagesPath": "/home/jackd/.nuget/packages/",
-        "outputPath": "/home/jackd/repos/CSharpForFun/DemoApp/obj/",
+        "outputPath": "/home/jackd/repos/C#DevShell/DemoApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jackd/.nuget/NuGet/NuGet.Config"

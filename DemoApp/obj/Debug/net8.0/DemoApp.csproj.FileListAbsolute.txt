@@ -1,0 +1,15 @@
+/home/jackd/repos/C#DevShell/DemoApp/bin/Debug/net8.0/DemoApp
+/home/jackd/repos/C#DevShell/DemoApp/bin/Debug/net8.0/DemoApp.deps.json
+/home/jackd/repos/C#DevShell/DemoApp/bin/Debug/net8.0/DemoApp.runtimeconfig.json
+/home/jackd/repos/C#DevShell/DemoApp/bin/Debug/net8.0/DemoApp.dll
+/home/jackd/repos/C#DevShell/DemoApp/bin/Debug/net8.0/DemoApp.pdb
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.AssemblyInfoInputs.cache
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.AssemblyInfo.cs
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.csproj.CoreCompileInputs.cache
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.sourcelink.json
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.dll
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/refint/DemoApp.dll
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.pdb
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/DemoApp.genruntimeconfig.cache
+/home/jackd/repos/C#DevShell/DemoApp/obj/Debug/net8.0/ref/DemoApp.dll
