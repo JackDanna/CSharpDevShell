@@ -1,5 +1,5 @@
 {
-  description = "A C# Dev Shell";
+  description = "A CSharp Dev Shell";
 
   outputs = { self, nixpkgs }:
   let
@@ -24,7 +24,7 @@
     
 
     devShells.${system}.default = pkgs.mkShell rec {
-      name = "C#DevShell";
+      name = "CSharpDevShell";
       buildInputs = with pkgs; [
         bashInteractive
         dotnet-sdk_8
@@ -49,7 +49,7 @@
 
       shellHook = ''
         export PS1+="${name}> "
-        echo "Welcome to the C# Dev Shell!"
+        echo "Welcome to the CSharp Dev Shell!"
       '';
     };
   }; 
